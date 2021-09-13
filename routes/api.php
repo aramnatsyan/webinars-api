@@ -17,9 +17,9 @@ use App\Http\Controllers\ThemeOfWebinarController;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
 
 
 /*
@@ -41,8 +41,17 @@ Route::post('getUpcomingWebinars', [WebinarController::class, 'getUpcomingWebina
 
 
 /*
-  The endpoint will return full webinar data (filtered)
+  The endpoint will return full webinar data fultered by Theme and Month
  */
-Route::post('getWebinar', [WebinarController::class, 'getWebinar']);
+Route::post('getFilteredWebinarsByThemeAndMonth', [WebinarController::class, 'getFilteredWebinarsByThemeAndMonth']);
+
+
+
+/*
+  The endpoint will return full webinar data fultered by Date only
+ */
+Route::post('getFilteredWebinarsByDateOnly', [WebinarController::class, 'getFilteredWebinarsByDateOnly']);
+
+
 
 

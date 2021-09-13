@@ -18,43 +18,43 @@ class ThemeOfWebinarSeeder extends Seeder
 
         $themes = [
             [
-                'name' => 'Finances',
+                'theme' => 'Finances',
             ],
             [
-                'name' => 'IT',
+                'theme' => 'IT',
             ],
             [
-                'name' => 'Marketing',
+                'theme' => 'Marketing',
             ],
             [
-                'name' => 'Education',
+                'theme' => 'Education',
             ],
             [
-                'name' => 'Transport',
+                'theme' => 'Transport',
             ],
             [
-                'name' => 'Finances',
+                'theme' => 'Finances',
             ],
             [
-                'name' => 'HR',
+                'theme' => 'HR',
             ],
             [
-                'name' => 'PR',
+                'theme' => 'PR',
             ],
             [
-                'name' => 'Customer Support',
+                'theme' => 'Customer Support',
             ],
             [
-                'name' => 'Team Working',
+                'theme' => 'Team Working',
             ],
             [
-                'name' => 'People Relations',
+                'theme' => 'People Relations',
             ],
             [
-                'name' => 'Work Estimation',
+                'theme' => 'Work Estimation',
             ],
             [
-                'name' => 'Public Administration',
+                'theme' => 'Public Administration',
             ],
 
         ];
